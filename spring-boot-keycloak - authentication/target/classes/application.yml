@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+keycloak:
+  realm: loginpage
+  auth-server-url: http://localhost:8180
+  resource: springboot
+  public-client: true
+  bearer-only: true
